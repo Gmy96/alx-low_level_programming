@@ -14,9 +14,9 @@ int main()
 
 	while (x <= 122)
 	{
-		putcher(x);
+		putchar(x);
 		x++;
 	}
-	putcher('\n')
+	putchar('\n')
 	return (0);
 }
