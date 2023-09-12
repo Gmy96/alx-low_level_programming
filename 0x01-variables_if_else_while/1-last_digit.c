@@ -5,7 +5,7 @@
 /**
  * main - Entry Point
  *
- * Description : The last digit
+ * Description : the last digit of the number stored in the variable n
  *
  * Return : Always 0
 */
