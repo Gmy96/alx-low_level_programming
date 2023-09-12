@@ -3,12 +3,12 @@
 /**
  * main - Entry point
  *
- * Description: prints the alphabet in lowercase
+ * Description: prints the alphabets in lowercase
  *
  * Rerurn: Always 0
 */
 
-int main()
+int main(void)
 {
 	int x = 97;
 
