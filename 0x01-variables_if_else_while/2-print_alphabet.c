@@ -1,14 +1,22 @@
 #include <sdtio.h>
 
-/***/
+/**
+ * main - Entry point
+ *
+ * Description: prints the alphabet in lowercase
+ *
+ * Rerurn: Always 0
+*/
 
 int main()
 {
-	char alphabet;
+	int x = 97;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++);
+	while (n <= 122)
 	{
-		putcher(alphabet);
+		putcher(x);
+		x++;
 	}
+	putcher('\n')
 	return (0);
 }
