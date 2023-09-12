@@ -12,7 +12,7 @@ int main()
 {
 	int x = 97;
 
-	while (n <= 122)
+	while (x <= 122)
 	{
 		putcher(x);
 		x++;
