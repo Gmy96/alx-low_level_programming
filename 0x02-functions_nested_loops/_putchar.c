@@ -5,10 +5,10 @@
 *
 *@x: The Character
 *
-*Return: 0 to success
+*Return: x to success
 */
 
-void _putchar(char x)
+char _putchar(char x)
 {
-	return (0);
+	return (x);
 }
