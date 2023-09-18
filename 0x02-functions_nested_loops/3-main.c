@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * test_islower - Test the _islower function
- *
- * @n: Number to pass to _islower function
- */
+* test_islower - Test the _islower function
+*
+* @n: Number to pass to _islower function
+*/
 void test_islower(int n)
 {
 	int r;
@@ -15,10 +15,10 @@ void test_islower(int n)
 }
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
+* main - check the code for Holberton School students.
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 	test_islower('H');
