@@ -11,9 +11,7 @@
 
 int main(void)
 {
-	char x = 'n';
-
-	_putchar(x);
+	_putchar('x');
 
 	return (0);
 }
