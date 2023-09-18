@@ -10,5 +10,5 @@
 
 void _putchar(char x)
 {
-	putchar ('x');
+	printf("%s", x);
 }
