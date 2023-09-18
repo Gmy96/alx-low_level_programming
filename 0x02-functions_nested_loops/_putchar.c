@@ -5,10 +5,10 @@
 *
 *@x: The Character
 *
-*Return: 1 to success
+*Return: 0 to success
 */
 
 int _putchar(char x)
 {
-	return (1);
+	return (x);
 }
