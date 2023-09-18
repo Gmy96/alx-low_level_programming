@@ -5,10 +5,10 @@
 *
 *@x: The Character
 *
-*Return: x to success
+*Return:
 */
 
-void _putchar(char x)
+int _putchar(char x)
 {
-	printf("%s", x);
+	return (x);
 }
