@@ -8,7 +8,7 @@
 *Return: x to success
 */
 
-char _putchar(char x)
+void _putchar(char x)
 {
-	return (x);
+	putchar (x);
 }
