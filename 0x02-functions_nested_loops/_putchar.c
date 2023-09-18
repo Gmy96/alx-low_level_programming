@@ -5,7 +5,7 @@
 *
 *@x: The Character
 *
-*Return:
+*Return: x to success
 */
 
 int _putchar(char x)
