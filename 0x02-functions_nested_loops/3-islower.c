@@ -11,15 +11,14 @@
 
 int _islower(int c)
 {
-	char x;
-	int y = 0;
-
-	for (x = 'a'; x <= 'z'; x++)
+	if (c >= 97 && c <= 122)
 	{
-		if (x == c)
-			y = 1;
+		return (1);
 	}
 
-	return (y);
+	else
+	{
+		return (0);
+	}
 }
 
