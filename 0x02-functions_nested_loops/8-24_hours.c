@@ -2,16 +2,19 @@
 #include "main.h"
 
 /**
- * jack_bauer - unction that prints every minute of the day 00:00 to 23:59
- *
- * Return: no return
+* jack_bauer - unction that prints every minute of the day 00:00 to 23:59
+*
+* Return: no return
 */
 
 void jack_bauer(void)
 {
 	int x;
+
 	int y;
+
 	int z;
+
 	int q;
 
 	for (x = 0; x <= 2; x++)
@@ -26,12 +29,12 @@ void jack_bauer(void)
 					{
 						break;
 					}
-                    _putchar(x + '0');
-                    _putchar(y + '0');
-                    _putchar(':');
-                    _putchar(z + '0');
-                    _putchar(q + '0');
-                    _putchar('\n');
+					_putchar(x + '0');
+					_putchar(y + '0');
+					_putchar(':');
+					_putchar(z + '0');
+					_putchar(q + '0');
+					_putchar('\n');
 				}
 			}
 		}
