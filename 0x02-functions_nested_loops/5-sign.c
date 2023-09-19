@@ -11,7 +11,7 @@ int print_sign(int n)
 		return (1);
 	}
 
-	if else (n < 48)
+	else if (n < 48)
 	{
 		_putchar('-');
 		return (-1);
