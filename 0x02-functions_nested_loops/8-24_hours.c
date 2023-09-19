@@ -25,7 +25,7 @@ void jack_bauer(void)
 			{
 				for (q = 0; q <= 9; q++)
 				{
-					if (x >= '2' && y >= '4')
+					if (x >= 2 && y >= 4)
 					{
 						break;
 					}
