@@ -3,9 +3,7 @@
 
 int add(int x, int y)
 {
-    int SUM = z;
-    
-    z = x + y;
+    int z = x + y;
 
     _putchar(z);
     return (z);
