@@ -14,7 +14,7 @@ int main(void)
 	unsigned long x = 0;
 	unsigned long y = 1;
 	unsigned long Sum;
-	unsigned Total_Sum;
+	int Total_Sum;
 
 	while (x <= 4000000)
 	{
@@ -28,7 +28,7 @@ int main(void)
 		y = Sum;
 	}
 
-	printf("%u\n", Total_Sum);
+	printf("%d\n", Total_Sum);
 
 	return (0);
 }
