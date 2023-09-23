@@ -9,7 +9,7 @@
 * Return: Always 0
 */
 
-int main(void);
+int main(void)
 {
 	unsigned long x = 0;
 	unsigned long y = 1;
