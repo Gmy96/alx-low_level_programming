@@ -13,7 +13,7 @@ int main(void)
 {
 	unsigned long x = 0;
 	unsigned long y = 1;
-	unsigned long Sum = 0;
+	float Sum = 0;
 
 	while (x <= 4000000)
 	{
@@ -26,7 +26,7 @@ int main(void)
 		y = x + y;
 	}
 
-	printf("%lu\n", Sum);
+	printf("%.0f\n", Sum);
 
 	return (0);
 }
