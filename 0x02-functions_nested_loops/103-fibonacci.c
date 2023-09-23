@@ -12,12 +12,9 @@
 int main(void)
 {
 	unsigned long x = 0;
-
 	unsigned long y = 1;
-
 	unsigned long Sum;
-
-	float Total_Sum;
+	unsigned long Total_Sum;
 
 	while (x <= 4000000)
 	{
@@ -31,7 +28,7 @@ int main(void)
 		y = Sum;
 	}
 
-	printf("%.0f\n", Total_Sum);
+	printf("%lu\n", Total_Sum);
 
 	return (0);
 }
