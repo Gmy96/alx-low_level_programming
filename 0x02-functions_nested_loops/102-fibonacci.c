@@ -11,10 +11,10 @@
 
 int main(void)
 {
-	long unsigned int x = 1;
-	long unsigned int y = 2;
-	long unsigned int z;
-	long unsigned int Sum;
+	unsigned long x = 1;
+	unsigned long y = 2;
+	unsigned long z;
+	unsigned long Sum;
 
 	printf("1, 2");
 
