@@ -20,7 +20,7 @@ int main(void)
 	for (x = 3; x <= 50; x++)
 	{
 		Sum = x + y;
-		printf("%d, ", Sum);
+		printf(", %d", Sum);
 		x = y;
 		y = Sum;
 	}
