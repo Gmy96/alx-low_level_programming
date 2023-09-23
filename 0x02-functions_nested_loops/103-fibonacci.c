@@ -13,17 +13,19 @@ int main(void)
 {
 	unsigned long x = 0;
 	unsigned long y = 1;
-	float Sum;
+    unsigned long Sum;
+	float Total_Sum;
 
 	while (x <= 4000000)
 	{
+        Sum = x + y;
 		if (x % 2 == 0)
 		{
-			Sum = Sum + x;
+			Total_Sum = Total_Sum + Sum;
 		}
 
 		x = y;
-		y = x + y;
+		y = Sum;
 	}
 
 	printf("%.0f\n", Sum);
