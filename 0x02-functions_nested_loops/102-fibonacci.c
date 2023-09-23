@@ -15,7 +15,9 @@ int main(void)
 	int y = 2;
 	int Sum;
 
-	for (x = 0; x <= 50; x++)
+	printf("1, 2");
+
+	for (x = 1; x <= 50; x++)
 	{
 		Sum = x + y;
 		printf(", %d", Sum);
