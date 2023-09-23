@@ -13,9 +13,9 @@ int main(void)
 {
 	unsigned long x = 0;
 	unsigned long y = 1;
-	float Sum = 0;
+	float Sum;
 
-	while (x < 4000000)
+	while (x <= 4000000)
 	{
 		if (x % 2 == 0)
 		{
