@@ -13,7 +13,7 @@ int main(void)
 {
 	int x = 1;
 	int y = 2;
-    int z;
+	int z;
 	int Sum;
 
 	printf("1, 2");
