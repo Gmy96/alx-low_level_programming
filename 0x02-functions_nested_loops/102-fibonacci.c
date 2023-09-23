@@ -21,7 +21,7 @@ int main(void)
 	for (z = 3; z <= 50; z++)
 	{
 		Sum = x + y;
-		printf(", %i", Sum);
+		printf(", %lu", Sum);
 		x = y;
 		y = Sum;
 	}
