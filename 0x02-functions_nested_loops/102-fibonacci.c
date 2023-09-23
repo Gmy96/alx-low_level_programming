@@ -13,11 +13,12 @@ int main(void)
 {
 	int x = 1;
 	int y = 2;
+    int z;
 	int Sum;
 
 	printf("1, 2");
 
-	for (x = 3; x < 50; x++)
+	for (z = 3; z < 50; z++)
 	{
 		Sum = x + y;
 		printf(", %d", Sum);
