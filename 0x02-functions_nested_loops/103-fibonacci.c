@@ -15,7 +15,7 @@ int main(void)
 	unsigned long y = 1;
 	float Sum = 0;
 
-	while (x <= 4000000)
+	while (x <= 4613732)
 	{
 		if (x % 2 == 0)
 		{
