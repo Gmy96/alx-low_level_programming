@@ -12,13 +12,16 @@
 int main(void)
 {
 	unsigned long x = 0;
+
 	unsigned long y = 1;
-    unsigned long Sum;
+
+	unsigned long Sum;
+
 	float Total_Sum;
 
 	while (x <= 4000000)
 	{
-        Sum = x + y;
+		Sum = x + y;
 		if (x % 2 == 0)
 		{
 			Total_Sum = Total_Sum + Sum;
