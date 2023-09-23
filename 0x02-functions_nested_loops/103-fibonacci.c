@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* mian - Entry point
+* main - Entry point
 *
 * Description: program that finds and prints the sum of the even-valued terms
 *
