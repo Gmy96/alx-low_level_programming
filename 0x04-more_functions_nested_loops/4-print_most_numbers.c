@@ -2,8 +2,6 @@
 
 /**
 * print_most_numbers - prints the numbers from 0 to 9 without printing 2 and 4
-*
-* Return: No return
 */
 
 void print_most_numbers(void)
