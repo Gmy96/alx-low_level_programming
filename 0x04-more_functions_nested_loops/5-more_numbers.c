@@ -10,9 +10,13 @@ void more_numbers(void)
 
 	for (x = 48; x <= 57; x++)
 	{
-		for (y = '0'; y <= '14'; y++)
+		for (y = 0; y <= 14; y++)
 		{
-			_putchar(y);
+			if (y > 9)
+			{
+			_putchar((y / 10) + 48);
+			}
+			_putchar((y % 10) + 48);
 		}
 		_putchar('\n');
 	}
