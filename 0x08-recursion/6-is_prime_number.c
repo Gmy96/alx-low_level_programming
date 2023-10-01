@@ -24,7 +24,7 @@ int prime_number(int x, int y)
 
 	else
 	{
-		return (prime2(x, y + 1));
+		return (prime_number(x, y + 1));
 	}
 }
 
