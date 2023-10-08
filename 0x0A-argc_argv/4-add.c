@@ -14,7 +14,6 @@
 int main(int argc, char *argv[])
 {
 	int x = 0;
-
 	char *c;
 
 	while (--argc)
@@ -26,10 +25,8 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-			else
-			{
-				x = x + atoi(argv[argc]);
-			}
+
+			x = x + atoi(argv[argc]);
 		}
 	}
 	printf("%d\n", x);
