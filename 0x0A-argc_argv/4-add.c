@@ -8,7 +8,7 @@
 *
 * @argv: An array of stings
 *
-* Return: Always 0
+* Return: Always 0 or 1 if Error
 */
 
 int main(int argc, char *argv[])
